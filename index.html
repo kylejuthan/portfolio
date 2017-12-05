@@ -12,37 +12,49 @@
   <!-- My own custom CSS stylesheet -->
   <link rel="stylesheet" href="css\style.css">
 
+  <!-- 'Font Awesome' CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <!-- Bootstrap CSS from Content Delivery Network (CDN) -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
 </head>
+
 <body>
-  
-   <!-- Navigation Bar -->
-   <nav class="navbar navbar-default navbar-fixed">
+
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false" aria-controls="navbar">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>                        
-          </button>
-        <a class="navbar-brand" href="#">Kyle Juthan</a>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false"
+          aria-controls="navbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <!-- used scroll trigger to allow me to vavigate on same page -->
+        <a class="navbar-brand js-scroll-trigger" href="#home">Kyle Juthan</a>
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
-          <li><a href="">Experience</a></li>
+          <li>
+            <a href="#about">About Me</a>
+          </li>
+          <li>
+            <a href="#experience">Experience</a>
+          </li>
           <li>
             <a href="#education">Education</a>
+          </li>
+          <li>
+            <a href="#grades">Grades</a>
           </li>
           <li>
             <a href="#projects">Projects</a>
           </li>
           <li>
-            <a href="#contact">Contact</a>
-          </li>
-          <li>
-            <a target="_blank" href="https://github.com/kylejuthan">GitHub</a>
+            <a href="#interests">Interests</a>
           </li>
         </ul>
       </div>
@@ -50,28 +62,94 @@
   </nav>
 
   <div class="container">
-    
-          <!-- Jumbotron class with fluid modifier to have it full width without rounded corners -->
-          <div class="jumbotron-fluid">
-            <div>
-              <img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAM0AAAAJDIyMTI2Y2NhLTk0YTAtNDQ3Yy1hZDBkLTc4MDQxOGJlMjYwYg.jpg"
-                class="img-circle" alt="Kyle Juthan">
-            </div>
-            <h1>Kyle Juthan</h1>
-          </div>
-    
-        </div>
 
-</div>
+    <!-- Jumbotron class with fluid modifier to have it full width without rounded corners -->
+    <div class="jumbotron-fluid" id="home">
+      <h2>Kyle Juthan</h2>
+      <p>
+        <h4>Fourth Year IT Management Student at Institute of Technology Tallaght</h4>
+      </p>
+      <div>
+        <img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAM0AAAAJDIyMTI2Y2NhLTk0YTAtNDQ3Yy1hZDBkLTc4MDQxOGJlMjYwYg.jpg"
+          class="img-circle" alt="Kyle Juthan">
+      </div>
+      <br></br>
+      <!-- Linking to my different accounts -->
+      <a target="_blank" href="https://github.com/kylejuthan"><i data-toggle="tooltip" title="Check out my GitHub!" aria-hidden="true" class="fa fa-github-square fa-5x"></i></a>
+      <a target="_blank" href="https://github.com/kylejuthan"><i data-toggle="tooltip" title="Check out my GitHub!" aria-hidden="true" class="fa fa-github-square fa-5x"></i></a>
+      <a target="_blank" href="https://www.linkedin.com/in/kylejuthan/"><i data-toggle="tooltip" title="Connect with me on LinkedIn!" aria-hidden="true" class="fa fa-linkedin-square fa-5x"></i></a>
+    </div>
 
-<!-- Scripts down the bottom so the page loads faster -->
+    <div class="container-fluid" id="about">
+      <h1>About Me</h1>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+    </div>
+
+    <div class="container-fluid" id="experience">
+      <h1>Experience</h1>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+    </div>
+
+    <div class="container-fluid" id="education">
+      <h1>Education</h1>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+    </div>
+
+    <div class="container-fluid" id="grades">
+      <h1>Grades</h1>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+    </div>
+
+    <div class="container-fluid" id="projects">
+      <h1>Projects</h1>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+    </div>
+
+    <div class="container-fluid" id="interests">
+        <h1>Interests</h1>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+      </div>
+
+  </div>
+
+  <!-- Scripts down the bottom so the page loads faster -->
   <!-- My own custom JavaScript -->
   <script src="./js/scripts.js" type="text/javascript"></script>
-  
-   <!-- Bootstrap CDN JavaScript from  -->
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
+  <!-- Bootstrap CDN JavaScript from  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </div>
 </body>
 
 </html>

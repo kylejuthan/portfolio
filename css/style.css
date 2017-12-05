@@ -12,11 +12,52 @@
 
 body {
     position: relative;
-    padding-top: 60px;
 }
 
 .jumbotron-fluid {
         background-image: url(http://www.designbolts.com/wp-content/uploads/2013/02/45-Degree-lines-Grey-Seamless-Pattern-For-Website-Background.jpg);
         padding-top: 10px;
         padding-bottom: 10px;
+}
+
+#home {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#about {
+    text-align: justify;
+    font-size: 20px;
+}
+
+#experience {
+    text-align: justify;
+    font-size: 20px;
+}
+
+#education {
+    text-align: justify;
+    font-size: 20px;
+}
+
+#grades {
+    text-align: justify;
+    font-size: 20px;
+}
+
+#projects {
+    text-align: justify;
+    font-size: 20px;
+}
+
+#interests {
+    text-align: justify;
+    font-size: 20px;
+}
+
+i {
+    margin-right:5%;
+    margin-left: 5%;
 }
