@@ -59,5 +59,9 @@ body {
 
 i {
     margin-right:5%;
-    margin-left: 5%;
+    margin-left:5%;
+}
+
+#myModal{
+    text-align: left;
 }
