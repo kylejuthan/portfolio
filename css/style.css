@@ -7,6 +7,7 @@
     border-top-right-radius: 50% 50%;
     border-bottom-left-radius: 50% 50%;
     border-bottom-right-radius: 50% 50%;
+    border: solid 2px #337ab7;
 
 }
 
@@ -14,15 +15,16 @@ body {
     position: relative;
 }
 
-.jumbotron-fluid {
+.jumbotron {
         background-image: url(http://www.designbolts.com/wp-content/uploads/2013/02/45-Degree-lines-Grey-Seamless-Pattern-For-Website-Background.jpg);
         padding-top: 10px;
         padding-bottom: 10px;
+        box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 18px 0 rgba(0, 0, 0, 0.19);
 }
 
 #home {
-    padding-top: 50px;
-    padding-bottom: 20px;
+    padding-top: 80px;
+    padding-bottom: 40px;
     padding-right: 20px;
     padding-left: 20px;
 }
@@ -57,6 +59,10 @@ body {
     font-size: 20px;
 }
 
+.panel-heading {
+    cursor: pointer;
+  }
+
 i {
     margin-right:5%;
     margin-left:5%;
@@ -65,3 +71,23 @@ i {
 #myModal{
     text-align: left;
 }
+
+.btn.contact {
+    padding: 14px 12px;
+}
+
+.ittallaght {
+    width:30%;
+    height:30%;
+}
+
+.templeogue {
+    width:17%;
+    height:17%;
+}
+
+.sapimg {
+    width:17%;
+    height:17%;
+}
+
