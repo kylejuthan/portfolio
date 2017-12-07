@@ -63,7 +63,7 @@ body {
     cursor: pointer;
   }
 
-i {
+#home i {
     margin-right:5%;
     margin-left:5%;
 }
@@ -96,4 +96,30 @@ i {
     height:8%;
 }
 
+#collapse5 {
+    text-align: justify;
+}
 
+#collapse5 img {
+	margin-left: auto;
+	margin-right: auto;
+    display: block;
+    width:90%;
+    height:90%;
+}
+
+#collapse6 img {
+	margin-left: auto;
+	margin-right: auto;
+    display: block;
+    width:90%;
+    height:90%;
+}
+
+#collapse7 img {
+	margin-left: auto;
+	margin-right: auto;
+    display: block;
+    width:70%;
+    height:70%;
+}

@@ -51,4 +51,7 @@ function submitContactForm() {
     $('#inputMessage').focus();
     return false;
   }
+  alert("Message sent!");
+  return true;
+    
 }
