@@ -25,7 +25,7 @@
 
   <!-- Navigation Bar -->
   <nav class="navbar navbar-default navbar-fixed-top" id="myNav">
-    <div class="container">
+    <div class="container fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false"
           aria-controls="navbar">
@@ -34,7 +34,7 @@
           <span class="icon-bar"></span>
         </button>
         <!-- used scroll trigger to allow me to vavigate on same page -->
-        <a class="navbar-brand js-scroll-trigger" href="#home">
+        <a class="navbar-brand js-scroll-trigger"q href="#home">
           <b>Kyle Juthan</b>
         </a>
       </div>
@@ -49,6 +49,11 @@
           <li>
             <a href="#education">Education</a>
           </li>
+          
+          <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Other
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
           <li>
             <a href="#projects">Projects</a>
           </li>
@@ -62,9 +67,13 @@
             <a target="_blank" href="features.html">Features</a>
           </li>
           <li>
+        </ul>
+          <li>
             <button type="button" class="contact btn btn-info active" data-toggle="modal" data-target="#myModal">Contact Me</button>
           </li>
-          <li>
+          
+        </ul>
+        <ul class="nav navbar-nav navbar-right"><li>
             <form class="navbar-form" role="search" action="https://www.google.com/search" target="_blank" method="GET">
               <div class="input-group">
                 <input type="text" class="form-control" placeholder="Search" name="q">
@@ -80,7 +89,7 @@
             <iframe src="https://free.timeanddate.com/clock/i60jcudc/n78/tlie/tcf8f8f8/ftb/pt12/tt0/tw1/tm1/ts1/tb4" frameborder="0" width="121"
               height="45"></iframe>
           </li>
-        </ul>
+    </ul>
       </div>
     </div>
   </nav>
